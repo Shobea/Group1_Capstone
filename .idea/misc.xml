@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/drawable/round_btn.xml" value="0.23" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/drawable/rounded_ed.xml" value="0.23" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/font/font.xml" value="0.28020833333333334" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/layout/activity_about_resort.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/layout/activity_create_account_screen.xml" value="0.176" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/layout/activity_resorts_list.xml" value="0.25" />
       </map>
