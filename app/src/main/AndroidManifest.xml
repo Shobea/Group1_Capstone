@@ -43,7 +43,7 @@
             android:name=".View.CreateAccountScreen"
             android:exported="false" />
         <activity
-            android:name=".SplashScreen"
+            android:name=".View.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
