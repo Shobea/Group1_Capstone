@@ -4,6 +4,159 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black_100"
     tools:context=".View.LogInScreen">
 
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="341dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/raleway_regular"
+        android:text="Locate your next destination with us."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="10pt"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="232dp"
+        android:layout_height="61dp"
+        android:background="@drawable/darkbtn"
+        android:backgroundTint="@color/purple"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="10pt"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_ed"
+        android:drawableLeft="@drawable/icon_lock"
+        android:ems="10"
+        android:fontFamily="@font/raleway_regular"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/purple"
+        android:textSize="10pt"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName5"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="160dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/medium_logo" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="406dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/raleway_extrabold"
+        android:text="Welcome to Destinater!"
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:textSize="14pt"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="341dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/raleway_regular"
+        android:text="Locate your next destination with us."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="10pt"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_ed"
+        android:drawableLeft="@drawable/icon_person"
+        android:ems="10"
+        android:fontFamily="@font/raleway_regular"
+        android:hint="Username or E-mail"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/purple"
+        android:textSize="10pt"
+        app:layout_constraintEnd_toEndOf="@+id/textView9"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="278dp"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:fontFamily="@font/raleway_regular"
+        android:text="Forgot Password?"
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName6"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName6"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="232dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/darkbtn"
+        android:backgroundTint="@color/purple"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="Log In"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="10pt"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="@+id/textView10"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="54dp"
+        android:layout_height="33dp"
+        android:fontFamily="@font/raleway_regular"
+        android:text="Or"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="10pt"
+        app:layout_constraintEnd_toEndOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 </androidx.constraintlayout.widget.ConstraintLayout>
