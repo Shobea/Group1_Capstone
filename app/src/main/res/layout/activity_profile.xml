@@ -146,7 +146,7 @@
         android:id="@+id/button8"
         android:layout_width="213dp"
         android:layout_height="59dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/darkbtn"
         android:backgroundTint="@null"
         android:fontFamily="@font/raleway_extrabold"
@@ -155,22 +155,24 @@
         android:textColor="@color/white"
         android:textSize="12pt"
         app:layout_constraintEnd_toEndOf="@+id/textView19"
-        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="@+id/textView19"
         app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
     <Button
         android:id="@+id/button9"
-        android:background="@drawable/border_red"
-        android:backgroundTint="@null"
         android:layout_width="213dp"
         android:layout_height="59dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/border_red"
+        android:backgroundTint="@null"
         android:fontFamily="@font/raleway_extrabold"
         android:text="Log Out"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="12pt"
         app:layout_constraintEnd_toEndOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/button8"
         app:layout_constraintTop_toBottomOf="@+id/button8" />
 
