@@ -23,6 +23,7 @@ public class LogInScreen extends AppCompatActivity {
         Button login=findViewById(R.id.button4);
         Button create=findViewById(R.id.button5);
 
+        login.setOnClickListener((view -> startActivity(new Intent(this, PromosScreen.class))));
         create.setOnClickListener((view -> startActivity(new Intent(this, CreateAccountScreen.class))));
     }
 }

@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/drawable/border.xml" value="0.23" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/drawable/border_red.xml" value="0.148" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/drawable/card_edge.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/drawable/circle_profile.xml" value="0.176" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/drawable/darkbtn.xml" value="0.1245" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/drawable/icon_lock.xml" value="0.148" />
@@ -20,12 +21,12 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/layout/activity_about_restaurant.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/layout/activity_account_confirmation_screen.xml" value="0.2" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/layout/activity_book_resort.xml" value="0.11354166666666667" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/layout/activity_bookmark_list.xml" value="0.176" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/layout/activity_bookmark_list.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/layout/activity_create_account_screen.xml" value="0.176" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/layout/activity_log_in_screen.xml" value="0.125" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/layout/activity_profile.xml" value="0.176" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/layout/activity_promos_screen.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/layout/activity_promos_screen.xml" value="0.264" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/layout/activity_resorts_list.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Group1_Capstone2/app/src/main/res/layout/activity_restaurants_list.xml" value="0.10989583333333333" />
       </map>
