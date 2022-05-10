@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/notification"
+    android:icon="@drawable/icon_bell"
+    android:title="Notification">
+    </item>
+    <item
+        android:id="@+id/heart"
+        android:icon="@drawable/icon_heart"
+        android:title="Like">
+    </item>
+    <item
+        android:id="@+id/book"
+        android:icon="@drawable/icon_book"
+        android:title="Booked">
+    </item>
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/icon_search"
+        android:title="Search">
+    </item>
+</menu>
