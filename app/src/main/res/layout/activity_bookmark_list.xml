@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/black_100"
     android:orientation="vertical"
-    tools:context=".View.RestaurantsList">
+    tools:context=".View.BookmarkList">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -33,6 +33,7 @@
                     android:layout_height="48dp"
                     android:background="@drawable/back_arrow"
                     android:backgroundTint="@null"
+                    android:onClick="onClick"
                     android:contentDescription="press" />
 
                 <TextView
@@ -67,10 +68,12 @@
                             android:layout_height="fill_parent">
 
                             <ImageButton
+                                android:id="@+id/imgbtn1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:background="@drawable/restaurant_four"
-                                android:contentDescription="press" />
+                                android:contentDescription="press"
+                                android:onClick="onClick" />
 
                             <TextView
                                 android:id="@+id/textView44"
@@ -99,10 +102,12 @@
                             android:layout_height="fill_parent">
 
                             <ImageButton
+                                android:id="@+id/imgbtn2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:background="@drawable/restaurant_one"
-                                android:contentDescription="press"/>
+                                android:contentDescription="press"
+                                android:onClick="onClick"/>
 
                             <TextView
                                 android:id="@+id/textView45"
@@ -130,10 +135,12 @@
                             android:layout_height="fill_parent">
 
                             <ImageButton
+                                android:id="@+id/imgbtn3"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:background="@drawable/resort_one"
-                                android:contentDescription="press" />
+                                android:contentDescription="press"
+                                android:onClick="onClick"/>
 
                             <TextView
                                 android:id="@+id/textView54"
@@ -161,10 +168,12 @@
                             android:layout_height="fill_parent">
 
                             <ImageButton
+                                android:id="@+id/imgbtn4"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:background="@drawable/resort_two"
-                                android:contentDescription="press" />
+                                android:contentDescription="press"
+                                android:onClick="onClick"/>
 
                             <TextView
                                 android:id="@+id/textView68"
@@ -192,10 +201,12 @@
                             android:layout_height="fill_parent">
 
                             <ImageButton
+                                android:id="@+id/imgbtn5"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:background="@drawable/resort_three"
-                                android:contentDescription="press" />
+                                android:contentDescription="press"
+                                android:onClick="onClick"/>
 
                             <TextView
                                 android:id="@+id/textView69"
@@ -223,10 +234,12 @@
                             android:layout_height="fill_parent">
 
                             <ImageButton
+                                android:id="@+id/imgbtn6"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:background="@drawable/resort_seven"
-                                android:contentDescription="press" />
+                                android:contentDescription="press"
+                                android:onClick="onClick"/>
 
                             <TextView
                                 android:id="@+id/textView71"

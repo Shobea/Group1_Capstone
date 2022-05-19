@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <group android:checkableBehavior="single">
+    <item
+            android:id="@+id/nav_resto"
+            android:icon="@drawable/icon_eat"
+            android:title="Restaurants">
+        </item>
+        <item
+            android:id="@+id/nav_resort"
+            android:icon="@drawable/icon_bed"
+            android:title="Resorts">
+        </item>
+        </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/icon_heart"
+            android:title="Favorites">
+        </item>
+        <item
+            android:id="@+id/nav_notifs"
+            android:icon="@drawable/icon_bell"
+            android:title="Notifications">
+        </item>
+    <item
+        android:id="@+id/nav_promos"
+        android:icon="@drawable/icon_tag"
+        android:title="Discounts &amp; Promos">
+    </item>
+    </group>
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/icon_person"
+        android:title="Profile">
+    </item>
+    <item
+        android:id="@+id/nav_bookings"
+        android:icon="@drawable/icon_book"
+        android:title="My Bookings">
+    </item>
+    </group>
+    </menu>

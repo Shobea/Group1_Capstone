@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/black_100"
     android:orientation="vertical"
-    tools:context=".View.BookmarkList">
+    tools:context=".View.PromosScreen">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,11 +18,12 @@
 
         <Button
             android:id="@+id/button6"
+            android:onClick="buttonPromos"
             android:layout_width="40dp"
             android:layout_height="48dp"
             android:layout_gravity="top"
             android:background="@drawable/back_arrow"
-            android:backgroundTint="@null"
+            app:backgroundTint="@null"
             android:contentDescription="press" />
 
         <TextView
@@ -78,13 +79,16 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:onClick="buttonPromos"
+                        android:id="@+id/coupon1"
                         android:layout_width="wrap_content"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
                         android:background="@null"
                         android:contentDescription="press"
-                        android:src="@drawable/icon_star" />
+                        android:src="@drawable/icon_star"
+                        tools:ignore="OnClick" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -113,6 +117,8 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:onClick="buttonPromos"
+                        android:id="@+id/coupon2"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
@@ -148,13 +154,15 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:onClick="buttonPromos"
+                        android:id="@+id/coupon3"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
                         android:background="@null"
                         android:contentDescription="press"
-                        android:src="@drawable/icon_star"></ImageButton>
+                        android:src="@drawable/icon_star"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -183,13 +191,15 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:id="@+id/coupon4"
+                        android:onClick="buttonPromos"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
                         android:background="@null"
                         android:contentDescription="press"
-                        android:src="@drawable/icon_star"></ImageButton>
+                        android:src="@drawable/icon_star"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -217,13 +227,15 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:onClick="buttonPromos"
+                        android:id="@+id/coupon5"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
                         android:background="@null"
                         android:contentDescription="press"
-                        android:src="@drawable/icon_star"></ImageButton>
+                        android:src="@drawable/icon_star"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -251,13 +263,15 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:onClick="buttonPromos"
+                        android:id="@+id/coupon6"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
                         android:background="@null"
                         android:contentDescription="press"
-                        android:src="@drawable/icon_star"></ImageButton>
+                        android:src="@drawable/icon_star"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -285,13 +299,15 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:onClick="buttonPromos"
+                        android:id="@+id/coupon7"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
                         android:background="@null"
                         android:contentDescription="press"
-                        android:src="@drawable/icon_star"></ImageButton>
+                        android:src="@drawable/icon_star"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -319,13 +335,15 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:onClick="buttonPromos"
+                        android:id="@+id/coupon8"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
                         android:background="@null"
                         android:contentDescription="press"
-                        android:src="@drawable/icon_star"></ImageButton>
+                        android:src="@drawable/icon_star"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -353,13 +371,15 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:onClick="buttonPromos"
+                        android:id="@+id/coupon9"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
                         android:background="@null"
                         android:contentDescription="press"
-                        android:src="@drawable/icon_star"></ImageButton>
+                        android:src="@drawable/icon_star"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -387,13 +407,15 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:onClick="buttonPromos"
+                        android:id="@+id/coupon10"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
                         android:background="@null"
                         android:contentDescription="press"
-                        android:src="@drawable/icon_star"></ImageButton>
+                        android:src="@drawable/icon_star"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -446,6 +468,8 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:onClick="buttonPromos"
+                        android:id="@+id/promo1"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
@@ -481,6 +505,8 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:id="@+id/promo2"
+                        android:onClick="buttonPromos"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
@@ -516,13 +542,15 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:onClick="buttonPromos"
+                        android:id="@+id/promo3"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
                         android:background="@null"
                         android:contentDescription="press"
-                        android:src="@drawable/icon_bed"></ImageButton>
+                        android:src="@drawable/icon_bed"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -551,13 +579,15 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:onClick="buttonPromos"
+                        android:id="@+id/promo4"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
                         android:background="@null"
                         android:contentDescription="press"
-                        android:src="@drawable/icon_eat"></ImageButton>
+                        android:src="@drawable/icon_eat"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -585,6 +615,8 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:onClick="buttonPromos"
+                        android:id="@+id/promo5"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
@@ -619,6 +651,8 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:onClick="buttonPromos"
+                        android:id="@+id/promo6"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
@@ -653,6 +687,8 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:onClick="buttonPromos"
+                        android:id="@+id/promo7"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
@@ -687,6 +723,8 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:onClick="buttonPromos"
+                        android:id="@+id/promo8"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
@@ -721,6 +759,8 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:onClick="buttonPromos"
+                        android:id="@+id/promo9"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
@@ -756,6 +796,8 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:onClick="buttonPromos"
+                        android:id="@+id/promo10"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"

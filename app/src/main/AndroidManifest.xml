@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Group1_Capstone">
         <activity
-            android:name=".View.BookResort"
+            android:name=".View.content_layout"
+            android:exported="false" />
+        <activity
+            android:name=".View.activity_base_drawer"
             android:exported="false" />
         <activity
             android:name=".View.AboutResort"
@@ -51,6 +54,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".View.popup_resort"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name=".View.popup_resto"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name=".View.popup_search"
+            android:theme="@style/Theme.AppCompat.Translucent"/>
+        <activity
+            android:name=".View.popup_menu"
+            android:theme="@style/Theme.AppCompat.Translucent"/>
+        <activity android:name=".View.BookResort"
+            android:excludeFromRecents="true"
+            android:theme="@style/DialogActivity"/>
     </application>
 
 </manifest>

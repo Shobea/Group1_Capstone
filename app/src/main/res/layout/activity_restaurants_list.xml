@@ -9,14 +9,16 @@
     tools:context=".View.RestaurantsList">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/navigation_bar2"
+        android:id="@+id/navigation_bar"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_margin="30dp"
         android:layout_alignParentBottom="true"
         android:elevation="2dp"
+        app:itemBackground="?selectableItemBackgroundBorderless"
         app:menu="@menu/navigation_bar"
         app:itemIconSize="40dp"
+        app:itemIconTint="@drawable/icon_state"
         app:labelVisibilityMode="unlabeled"
         android:background="@drawable/border"/>
 
@@ -30,38 +32,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="20dp"
-                android:orientation="horizontal"
-                android:layout_gravity="start"
-                android:gravity="start">
-
-
-                <Button
-                    android:id="@+id/button10"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:background="@drawable/icon_menu"
-                    android:backgroundTint="@null"
-                    android:contentDescription="press"  />
-
-                <TextView
-                    android:id="@+id/textView22"
-                    android:layout_width="353dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="top"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginTop="10dp"
-                    android:fontFamily="@font/raleway_extrabold"
-                    android:text="Restaurants"
-                    android:textColor="@color/purple"
-                    android:textSize="16pt"/>
-
-            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -104,10 +74,12 @@
                                 android:layout_height="fill_parent">
 
                                 <ImageButton
+                                    android:id="@+id/resto1"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:background="@drawable/restaurant_one"
-                                    android:contentDescription="press" />
+                                    android:contentDescription="press"
+                                    android:onClick="onClick" />
 
                                 <TextView
                                     android:id="@+id/textView49"
@@ -146,6 +118,8 @@
                                 android:layout_height="fill_parent">
 
                                 <ImageButton
+                                    android:id="@+id/resto2"
+                                    android:onClick="onClick"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:background="@drawable/restaurant_two"
@@ -188,6 +162,8 @@
                                 android:layout_height="fill_parent">
 
                                 <ImageButton
+                                    android:id="@+id/resto3"
+                                    android:onClick="onClick"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:background="@drawable/restaurant_three"
@@ -258,6 +234,8 @@
                                 android:layout_height="fill_parent">
 
                                 <ImageButton
+                                    android:id="@+id/resto4"
+                                    android:onClick="onClick"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:background="@drawable/restaurant_four"
@@ -300,6 +278,8 @@
                                 android:layout_height="fill_parent">
 
                                 <ImageButton
+                                    android:id="@+id/resto5"
+                                    android:onClick="onClick"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:background="@drawable/restaurant_six"
@@ -342,6 +322,8 @@
                                 android:layout_height="fill_parent">
 
                                 <ImageButton
+                                    android:id="@+id/resto6"
+                                    android:onClick="onClick"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:background="@drawable/restaurant_seven"
@@ -405,6 +387,8 @@
                             android:layout_height="fill_parent">
 
                             <ImageButton
+                                android:id="@+id/resto7"
+                                android:onClick="onClick"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:background="@drawable/restaurant_four"
@@ -447,6 +431,8 @@
                             android:layout_height="fill_parent">
 
                             <ImageButton
+                                android:id="@+id/resto8"
+                                android:onClick="onClick"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:background="@drawable/restaurant_one"
@@ -489,6 +475,8 @@
                             android:layout_height="fill_parent">
 
                             <ImageButton
+                                android:id="@+id/resto9"
+                                android:onClick="onClick"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:background="@drawable/restaurant_two"
