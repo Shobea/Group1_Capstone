@@ -398,12 +398,14 @@
             app:layout_constraintStart_toStartOf="@+id/textView73" />
 
         <Button
+            android:id="@+id/code"
+            android:onClick="buttonFunction"
             android:layout_width="wrap_content"
             android:layout_height="45dp"
             android:layout_marginBottom="4dp"
             android:background="@drawable/round_ed4"
             android:fontFamily="@font/raleway_semibold"
-            android:text="Promo Code"
+            android:text="Promo"
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textColor="@color/white"

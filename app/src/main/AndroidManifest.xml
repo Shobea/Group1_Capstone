@@ -19,6 +19,9 @@
             android:name=".View.AboutResort"
             android:exported="false" />
         <activity
+            android:name=".View.BookResort"
+            android:exported="false"/>
+        <activity
             android:name=".View.AboutRestaurant"
             android:exported="false" />
         <activity
@@ -66,9 +69,6 @@
         <activity
             android:name=".View.popup_menu"
             android:theme="@style/Theme.AppCompat.Translucent"/>
-        <activity android:name=".View.BookResort"
-            android:excludeFromRecents="true"
-            android:theme="@style/DialogActivity"/>
     </application>
 
 </manifest>
